@@ -1,0 +1,18 @@
+p{
+    color: rgb(226, 57, 114);
+}
+
+#testediv{
+    background-color: pink;
+}
+
+.testeClass{
+    background-color: rgb(233, 188, 218);
+    
+}
+
+a:hover{
+    color:bisque;
+}
+
+
