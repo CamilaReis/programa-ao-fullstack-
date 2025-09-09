@@ -1,0 +1,32 @@
+.div1{
+    color:red; 
+}
+.inicio{
+    text-align:justify;
+    font-size: 7pt;
+    justify-content: space-between;
+    color: rgb(180, 184, 209)
+}
+
+.lateral{
+    text-align: right;
+}
+.imagem{
+    display: flex;
+    text-align: start; 
+    justify-content: space-between;
+}
+
+.caixa{
+   display: flex;
+   background-color:red;
+   justify-content: space-evenly;
+   align-items: center; 
+
+   height: 100px;
+   width: 400px;
+
+}
+.frase1{
+    font-style: bold ;
+}
