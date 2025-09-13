@@ -1,11 +1,19 @@
 .div1{
     color:red; 
 }
-.inicio{
-    text-align:justify;
-    font-size: 7pt;
-    justify-content: space-between;
-    color: rgb(180, 184, 209)
+.cabeçario{
+     margin-top: 10px;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     font-weight: bold;
+     color: rgb(180, 184, 209)
+}
+
+.menu-superior {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
 }
 
 .lateral{
@@ -21,12 +29,73 @@
    display: flex;
    background-color:red;
    justify-content: space-evenly;
-   align-items: center; 
-
+   align-items: center;
    height: 100px;
-   width: 400px;
+   width: 600px;
 
 }
 .frase1{
     font-style: bold ;
+    color: white; 
+    align-items: start;
+}
+
+.frase2{
+    color: white;
+    align-items: end;
+    font-style: normal;
+}
+
+.div2{
+    gap: 100px; /*coloca o espaçamento em cima*/
+    float: left; /*joga para a direita*/
+    position: relative;
+}
+
+.linha-noticias {
+    display: flex;
+    gap: 20px;         /* espaço entre as imagens */
+    margin-top: 20px;  /* espaço acima do bloco */
+}
+
+.div3 img {
+    display: flex;
+    gap: 20px;
+    float: left; 
+}
+
+.div4 img {
+    display: block;
+    width: 300px;
+    height: 200px;
+    object-fit: cover; /* garante que a imagem preencha certinho */
+    border: 1px solid #ccc;
+}
+
+.frase3{
+    font-style: bold ;
+    color: red; 
+
+}
+
+.frase4{
+   color: #888585; 
+ 
+}
+.trasparente{
+   display: flex;
+   background-color:rgb(255, 255, 255);
+   justify-content: space-evenly;
+   align-items: center;
+   height: 100px;
+   width: 600px;
+}
+
+.caixa-cinza{
+   display: flex;
+   background-color:gray;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 900px;
+   width: 1000px;
 }

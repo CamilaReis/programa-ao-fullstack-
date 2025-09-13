@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #fff;
+  color: #333;
+}
+
+/* TOPO */
+.top-bar {
+  background: #f5f5f5;
+  padding: 10px 20px;
+}
+
+.menu-superior {
+  display: flex;
+  gap: 15px;
+  font-size: 14px;
+}
+
+.menu-superior a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #333;
+  font-weight: bold;
+}
+
+.logo-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+}
+
+.logo {
+  height: 60px;
+}
+
+.info-lateral {
+  text-align: right;
+  font-size: 13px;
+  color: #666;
+}
+
+.info-lateral hr {
+  margin: 5px 0;
+}
+
+/* MANCHETE */
+.manchete {
+  color: #d60000;
+  font-size: 28px;
+  font-weight: bold;
+  margin: 30px 20px 20px;
+  text-align: center;
+}
+
+/* NOTÍCIAS */
+.noticias {
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr;
+  gap: 20px;
+  padding: 0 20px;
+}
+
+.noticia {
+  border: 1px solid #eee;
+  background: #fafafa;
+}
+
+.noticia img {
+  width: 100%;
+  display: block;
+}
+
+.noticia .texto {
+  padding: 10px;
+}
+
+.noticia.grande {
+  grid-row: span 2;
+  background: #d60000;
+  color: white;
+}
+
+.noticia.grande .texto p {
+  color: #fff;
+}
+
+/* VIDEO */
+.video-section {
+  margin: 50px 20px;
+  text-align: center;
+}
+
+.video-container {
+  margin-top: 20px;
+}
+
+.video-container video {
+  width: 80%;
+  border-radius: 10px;
+}
+
+/* RODAPÉ */
+footer {
+  background: #f5f5f5;
+  padding: 30px 20px 10px;
+  margin-top: 50px;
+}
+
+.rodape-conteudo {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 14px;
+}
+
+.copy {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 12px;
+  color: #555;
+}
+
+.frase4{
+    
+}
